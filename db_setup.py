@@ -8,6 +8,6 @@ Base.metadata.create_all(engine)
 
 SessionLocal = sessionmaker(bind=engine)
 
-# Ovako se pozove da mozemo loadati i storeati data:
+# Ovako se pozove da mozemo loadati i spremiti data:
 # from db_setup import SessionLocal
 # session = SessionLocal()
